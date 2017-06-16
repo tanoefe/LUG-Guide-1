@@ -1,4 +1,60 @@
-.nav { 
+.nav1 { 
     list-style-type: none;
+    display: block;
+    overflow: hidden;
+    position: fixed;
+    top:0;
+    margin:auto;;
+    padding:3px;
+    border-width: 5px;
+    border-style: groove;
+    border-color:black white;
+    width: 600px;
+    background-color:#333;
+       
+}
+
+.navbtn {
+    float: left;
+    border-right: 1px solid #bbb;
+    
+} 
+
+
+
+
+
+.navbtn a{
+    color:white;
+    padding: 14px 16px;
+    display:inline-block;
+    text-align: center;
+    text-decoration: none;
+    
+        
+} 
+
+.navbtn a:hover {
+    background-color: red;
+}
+
+/* Slider Images */ 
+
+.slider{
+    z-index: 2;
+    border: 5px solid red;
+    display: block;
+    width:600px;
+    height:400px;
+    overflow: hidden;
+    
+float: left;
+    margin:55px auto;
+    
+}
+
+.slider-img{
+    width:600px;
+    height:400px; 
     
 }
